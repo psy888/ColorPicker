@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Colors</string>
+    <string name="colors_combinations">Комбинации цветов</string>
+    <string name="red">Красный</string>
+    <string name="green">Зеленый</string>
+    <string name="blue">Синий</string>
+</resources>

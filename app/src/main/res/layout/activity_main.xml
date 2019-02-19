@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height0dp"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:layout_marginTop="@dimen/main_margin"
+        android:layout_marginLeft="@dimen/main_margin"
+        android:layout_marginRight="@dimen/main_margin">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:rowCount="2"
+            android:columnCount="2">
+            <Button android:text="@string/one"/>
+            <Button android:text="@string/two"/>
+            <Button android:text="@string/three"/>
+            <Button android:text="@string/four"/>
+        </GridLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/pink"
+        android:layout_marginBottom="@dimen/main_margin"
+        android:layout_marginLeft="@dimen/main_margin"
+        android:layout_marginRight="@dimen/main_margin">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:rowCount="2"
+            android:columnCount="2">
+            <Button android:text="@string/one"/>
+            <Button android:text="@string/two"/>
+            <Button android:text="@string/three"/>
+            <Button android:text="@string/four"/>
+        </GridLayout>
+    </FrameLayout>
+
+</LinearLayout>
