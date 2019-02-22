@@ -28,6 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/topMargin"
             android:textSize="@dimen/textSize"
+            android:buttonTint="@color/checkBox"
             android:text="@string/red"/>
         <CheckBox
             android:id="@+id/green"
@@ -35,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/topMargin"
             android:textSize="@dimen/textSize"
+            android:buttonTint="@color/checkBox"
             android:text="@string/green"/>
         <CheckBox
             android:id="@+id/blue"
@@ -42,6 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/topMargin"
             android:textSize="@dimen/textSize"
+            android:buttonTint="@color/checkBox"
             android:text="@string/blue"/>
     </LinearLayout>
 </LinearLayout>
